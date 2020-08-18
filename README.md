@@ -25,7 +25,7 @@ Paper: https://arxiv.org/abs/1609.04802
 ## Usage:
     
     Note : During the training the images generated and model will be saved into the directories "images" and "model" following the
-	_sample_interval_ parameter.
+	"sample_interval" parameter.
     
      * Training:
         Run below command to train model. Set parameters accordingly.
