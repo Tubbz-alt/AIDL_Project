@@ -15,9 +15,33 @@ Paper: https://arxiv.org/abs/1609.04802
     
 ## Output:
 Below are few results (from epoch 0 to 5000) -
-![Output 1](./output/epoch_0.png)
-![Output 2](./output/epoch_500.png)
-![Output 3](./output/epoch_1000.png)
-![Output 4](./output/epoch_1500.png)
-![Output 5](./output/epoch_2000.png)
-![Output 6](./output/epoch_5000.png)
+
+# Epoch 0
+<p align="left">
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_0.png" width="480"\>
+</p>
+
+# Epoch 500
+<p align="left">
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_500.png" width="480"\>
+</p>
+
+# Epoch 1000
+<p align="left">
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_1000.png" width="480"\>
+</p>
+
+# Epoch 1500
+<p align="left">
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_1500.png" width="480"\>
+</p>
+
+# Epoch 2000
+<p align="left">
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_2000.png" width="480"\>
+</p>
+
+# Epoch 5000
+<p align="left">
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_5000.png" width="480"\>
+</p>
