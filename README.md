@@ -7,6 +7,14 @@ Implementation of _Photo-Realistic Single Image Super-Resolution Using a Generat
 
 Paper: https://arxiv.org/abs/1609.04802
 
+## Requirements:
+
+	You will need the following to run the above:
+	Keras==2.3.1
+	tensorflow==2.1.0
+	opencv-python==4.3.0
+	matplotlib==3.3.0
+	argparse==1.4.0
 
 ## File Structure:
     Model.py : Contains Generator and Discriminator Network
@@ -14,7 +22,7 @@ Paper: https://arxiv.org/abs/1609.04802
     train.py   : Used for training the model
     
 ## Output:
-Below are few results (from epoch 0 to 5000) -
+Below are few results (from epoch 0 to 5000):
 
 #### Epoch 0
 <p align="left">
