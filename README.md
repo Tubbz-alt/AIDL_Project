@@ -25,12 +25,11 @@ Paper: https://arxiv.org/abs/1609.04802
 ## Usage:
     
     Note : During the training the images generated and model will be saved into the directories "images" and "model" following the
-	"sample_interval" parameter.
+	"sample_interval" parameter. all output folders are automatically created.
     
      * Training:
-        Run below command to train model. Set parameters accordingly.
+        Run below command to start the training process. this script will also download the dataset and prepare the folders needed.
         > python train.py --train_folder='./data/train/' --batch_size=8 --epochs=2000 --sample_interval=25
-
 
 
 ## Output:
