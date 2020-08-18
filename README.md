@@ -20,7 +20,19 @@ Paper: https://arxiv.org/abs/1609.04802
     Model.py   : Contains Generator and Discriminator Network
     Utils.py   : Contains utilities to process images
     train.py   : Used for training the model
+
+
+## Usage:
     
+    Note : During the training the images generated and model will be saved into the directories "images" and "model" following the
+	_sample_interval_ parameter.
+    
+     * Training:
+        Run below command to train model. Set parameters accordingly.
+        > python train.py --train_folder='./data/train/' --batch_size=8 --epochs=2000 --sample_interval=25
+
+
+
 ## Output:
 Below are few results (from epoch 0 to 5000):
 
