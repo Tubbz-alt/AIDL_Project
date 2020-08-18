@@ -16,32 +16,32 @@ Paper: https://arxiv.org/abs/1609.04802
 ## Output:
 Below are few results (from epoch 0 to 5000) -
 
-# Epoch 0
+#### Epoch 0
 <p align="left">
     <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_0.png" width="480"\>
 </p>
 
-# Epoch 500
+#### Epoch 500
 <p align="left">
     <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_500.png" width="480"\>
 </p>
 
-# Epoch 1000
+#### Epoch 1000
 <p align="left">
     <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_1000.png" width="480"\>
 </p>
 
-# Epoch 1500
+#### Epoch 1500
 <p align="left">
     <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_1500.png" width="480"\>
 </p>
 
-# Epoch 2000
+#### Epoch 2000
 <p align="left">
     <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_2000.png" width="480"\>
 </p>
 
-# Epoch 5000
+#### Epoch 5000
 <p align="left">
     <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_5000.png" width="480"\>
 </p>
