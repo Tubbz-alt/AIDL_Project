@@ -42,10 +42,6 @@ class SRGAN():
             optimizer=optimizer,
             metrics=['accuracy'])
 
-        # Configure data loader
-        self.dataset_name = 'train'
-        self.data_loader = DataLoader(dataset_name=self.dataset_name,
-                                      img_res=(self.hr_height, self.hr_width))
 
         # Calculate output shape of D (PatchGAN)
         patch = int(self.hr_height / 2**4)
@@ -171,9 +167,14 @@ class SRGAN():
 
         return Model(d0, validity)
 
-    def train(self, epochs, batch_size=1, sample_interval=50):
+    def train(self, epochs, batch_size, train_folder, sample_interval):
 
         start_time = datetime.datetime.now()
+
+        # Configure data loader
+        self.dataset_name = 'train'
+        self.data_loader = DataLoader(dataset_path=train_folder,
+                                      img_res=(self.hr_height, self.hr_width))
 
 
         # For each epoch:

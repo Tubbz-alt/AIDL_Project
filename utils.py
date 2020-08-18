@@ -1,18 +1,16 @@
 import cv2
 from glob import glob
 import numpy as np
-import matplotlib.pyplot as plt
 import requests
 from tqdm import tqdm
 
 class DataLoader():
-    def __init__(self, dataset_name, img_res=(128, 128)):
-        self.dataset_name = dataset_name
+    def __init__(self, dataset_path, img_res=(128, 128)):
+        self.dataset_path = dataset_path
         self.img_res = img_res
 
     def load_data(self, batch_size=1, is_testing=False):
-        data_type = "train" if not is_testing else "test"
-        path = glob('./data/%s/*' % (self.dataset_name))
+        path = glob('%s*' % (self.dataset_path))
         batch_images = np.random.choice(path, size=batch_size)
 
         imgs_hr = []
