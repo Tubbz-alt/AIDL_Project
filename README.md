@@ -27,40 +27,43 @@ Paper: https://arxiv.org/abs/1609.04802
     Note : During the training the images generated and model will be saved into the directories "images" and "model" following the
 	"sample_interval" parameter. all output folders are automatically created.
     
-     * Training:
+     * Training (due to my hardware specs, im training with default settings):
         Run below command to start the training process. this script will also download the dataset and prepare the folders needed.
-        > python train.py --train_folder='./data/train/' --batch_size=8 --epochs=2000 --sample_interval=25
+        > python train.py --train_folder='./data/train/' --batch_size=12 --epochs=500 --sample_interval=25
+
+## Metrics:
+	The network is implemented 
 
 
 ## Output:
-Below are few results (from epoch 0 to 5000):
+Below are few results (from epoch 0 to 500):
 
 #### Epoch 0
 <p align="left">
     <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_0.png" width="480"\>
 </p>
 
+#### Epoch 100
+<p align="left">
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_100.png" width="480"\>
+</p>
+
+#### Epoch 200
+<p align="left">
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_200.png" width="480"\>
+</p>
+
+#### Epoch 300
+<p align="left">
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_300.png" width="480"\>
+</p>
+
+#### Epoch 400
+<p align="left">
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_400.png" width="480"\>
+</p>
+
 #### Epoch 500
 <p align="left">
     <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_500.png" width="480"\>
-</p>
-
-#### Epoch 1000
-<p align="left">
-    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_1000.png" width="480"\>
-</p>
-
-#### Epoch 1500
-<p align="left">
-    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_1500.png" width="480"\>
-</p>
-
-#### Epoch 2000
-<p align="left">
-    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_2000.png" width="480"\>
-</p>
-
-#### Epoch 5000
-<p align="left">
-    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_5000.png" width="480"\>
 </p>
