@@ -224,7 +224,7 @@ class SRGAN():
     # Sample the images
     def sample_images(self, epoch):
         os.makedirs('images/%s' % self.dataset_name, exist_ok=True)
-        r, c = 2, 2
+        r, c = 2, 3
 
         imgs_hr, imgs_lr = self.data_loader.load_data(batch_size=2, is_testing=True)
         fake_hr = self.generator.predict(imgs_lr)
@@ -235,11 +235,11 @@ class SRGAN():
         imgs_hr = 0.5 * imgs_hr + 0.5
 
         # Save generated images and the high resolution originals
-        titles = ['Generated', 'Original']
+        titles = ['Generated', 'LowRes', 'HighRes']
         fig, axs = plt.subplots(r, c)
         cnt = 0
         for row in range(r):
-            for col, image in enumerate([fake_hr, imgs_lr]):
+            for col, image in enumerate([fake_hr, imgs_lr, imgs_hr]):
                 axs[row, col].imshow(image[row])
                 axs[row, col].set_title(titles[col])
                 axs[row, col].axis('off')

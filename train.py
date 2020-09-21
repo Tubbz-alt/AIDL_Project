@@ -30,9 +30,9 @@ def prep(train_folder, num_images, download=True):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='AIDL SRGAN Train')
     parser.add_argument('--train_folder', default='./data/train/', help='dataset folder')
-    parser.add_argument('--epochs', default=2000, type=int, help='number of epochs')
-    parser.add_argument('--batch_size', default=8, type=int, help='Batch size')
-    parser.add_argument('--sample_interval', default=25, type=int, help='Sample Save Interval')
+    parser.add_argument('--epochs', default=500, type=int, help='number of epochs')
+    parser.add_argument('--batch_size', default=12, type=int, help='Batch size')
+    parser.add_argument('--sample_interval', default=10, type=int, help='Sample Save Interval')
     opt = parser.parse_args()
 
     # Call 'prep' method to download dataset and create folders
