@@ -32,9 +32,10 @@ Paper: https://arxiv.org/abs/1609.04802
         > python train.py --train_folder='./data/train/' --batch_size=12 --epochs=500 --sample_interval=25
 
 ## Metrics:
-	The network is implemented as the paper suggests using perceptual loss as metric to measure the performance of the network.
 
-	<img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/percep_loss.JPG" width="350"\>
+The network is implemented as the paper suggests using perceptual loss as metric to measure the performance of the network.
+
+<img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/percep_loss.JPG" width="350"\>
 	
 
 
