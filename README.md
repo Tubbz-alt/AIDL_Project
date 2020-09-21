@@ -40,30 +40,30 @@ Below are few results (from epoch 0 to 500):
 
 #### Epoch 0
 <p align="left">
-    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_0.png" width="480"\>
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_0.png" width="640"\>
 </p>
 
 #### Epoch 100
 <p align="left">
-    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_100.png" width="480"\>
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_100.png" width="640"\>
 </p>
 
 #### Epoch 200
 <p align="left">
-    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_200.png" width="480"\>
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_200.png" width="640"\>
 </p>
 
 #### Epoch 300
 <p align="left">
-    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_300.png" width="480"\>
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_300.png" width="640"\>
 </p>
 
 #### Epoch 400
 <p align="left">
-    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_400.png" width="480"\>
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_400.png" width="640"\>
 </p>
 
 #### Epoch 500
 <p align="left">
-    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_500.png" width="480"\>
+    <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_500.png" width="640"\>
 </p>
