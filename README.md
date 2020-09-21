@@ -10,14 +10,14 @@ Paper: https://arxiv.org/abs/1609.04802
 ## Metrics:
 
 The network is implemented as the paper suggests using perceptual loss as metric to measure the performance of the network.
-<p>
+<p align="center">
     <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/percep_loss.JPG" width="350"\>
 </p>
 
 To Extract the the content loss, the paper suggests to use the VGG-19 to calculate the pixel-loss MSE between the features of the Hi-Res image 
 and fake Hi-Res image, as it follows:
 
-<p>
+<p align="center">
     <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/content_loss.JPG" width="350"\>
 </p>
 
@@ -38,8 +38,8 @@ and fake Hi-Res image, as it follows:
 
 ## Usage:
     
-    Note : During the training the images generated and model will be saved into the directories "images" and "model" following the
-	"sample_interval" parameter. all output folders are automatically created.
+    Note : During the training the images generated and model will be saved into the directories "images" 
+	and "model" following the "sample_interval" parameter. all output folders are automatically created.
     
      * Training (due to my hardware specs, im training with default settings):
         Run below command to start the training process. this script will also download the dataset and prepare the folders needed.
