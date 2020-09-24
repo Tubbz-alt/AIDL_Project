@@ -235,11 +235,11 @@ class SRGAN():
         imgs_hr = 0.5 * imgs_hr + 0.5
 
         # Save generated images and the high resolution originals
-        titles = ['Generated', 'LowRes', 'HighRes']
+        titles = ['Ground Truth', 'Input', 'Output']
         fig, axs = plt.subplots(r, c)
         cnt = 0
         for row in range(r):
-            for col, image in enumerate([fake_hr, imgs_lr, imgs_hr]):
+            for col, image in enumerate([imgs_hr, imgs_lr, fake_hr]):
                 axs[row, col].imshow(image[row])
                 axs[row, col].set_title(titles[col])
                 axs[row, col].axis('off')
