@@ -16,10 +16,10 @@ class DataLoader():
         imgs_hr = []
         imgs_lr = []
         for img_path in batch_images:
-			# Get the slicing because Cv2 reads images in BGR
+            # Get the slicing because Cv2 reads images in BGR
             img = self.imread(img_path)[:,:,::-1]
 
-			# Downscales the original image by factor of 4
+            # Downscales the original image by factor of 4
             h, w = self.img_res
             low_h, low_w = int(h / 4), int(w / 4)
 
@@ -39,10 +39,10 @@ class DataLoader():
 
         return imgs_hr, imgs_lr
 
-	# reads the image
+    # reads the image
     def imread(self, path):
-        return cv2.imread(path).astype(np.float)                    
-    
+        return cv2.imread(path).astype(np.float)	
+
 
 def DataDownloader(id, destination):
     def get_confirm_token(response):
@@ -74,8 +74,4 @@ def DataDownloader(id, destination):
         params = { 'id' : id, 'confirm' : token }
         response = session.get(URL, params = params, stream = True)
 
-    save_response_content(response, destination)        
-    
-
-
-
+    save_response_content(response, destination)
