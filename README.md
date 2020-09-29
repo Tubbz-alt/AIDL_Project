@@ -83,3 +83,10 @@ Below are few results (from epoch 0 to 500):
 <p align="left">
     <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/epoch_500.png" width="640"\>
 </p>
+
+## Findings / Conclusions:
+* The architecture suggested by the paper, even with very limited computational resources, is able to archieve some very good results.
+* We observed that the network really improves the image quality while applying the upscaling factor by 4 (as suggested by the paper)
+* Even when the images are "glitched" the network tries to improve the pixel area of the glitch.
+* For some reason, the generator performs badly when dealing with glasses (suggests of samples in the training set/uneven train set or not enough training time)
+* If the eyes are nearly closed or too dark (Womans makeup, for example) the generator does not perform very well.
