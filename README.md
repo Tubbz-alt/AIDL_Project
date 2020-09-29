@@ -21,6 +21,9 @@ and fake Hi-Res image, as it follows:
     <img src="https://github.com/calebemonteiro/AIDL_Project/blob/master/resources/content_loss.JPG" width="350"\>
 </p>
 
+## Dataset:
+    For SRGAN training we opted to used the CelebA dataset with can be found here: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+
 
 ## Requirements:
     You will need the following to run the above:
